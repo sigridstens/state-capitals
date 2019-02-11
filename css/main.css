@@ -9,7 +9,7 @@ html {
 
 /*Author Styles*/
 html {
-    background: #113479;
+    background: linear-gradient(to top, #113479, #0d1e3f);
 }
 
 body {
@@ -42,6 +42,7 @@ h1 {
     text-align: center;
     font-size: 1.1em;
     font-style: italic;
+    color: #dc1b0b;
 }
 
 .gallery{
@@ -53,9 +54,15 @@ h1 {
 
 .state {
     flex: 1;
-    padding: 1.5em .75em;
+    padding: 3em 1.5em;
     text-align: center;
     text-transform: uppercase;
+    opacity: 1;
+}
+
+.state:hover {
+    opacity: .5;
+
 }
 
 .state-name {
